@@ -1,0 +1,1 @@
+Variables hold values that can change while a program runs.

@@ -1,0 +1,10 @@
+[build]
+  command = "npm run export"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Optional: speed up by caching node_modules
+[functions]
+  node_bundler = "esbuild"
